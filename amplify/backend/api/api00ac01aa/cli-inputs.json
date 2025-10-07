@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/explain": {
+      "name": "/explain",
+      "lambdaFunction": "explainitfunction",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create"
+        ]
+      }
+    }
+  }
+}

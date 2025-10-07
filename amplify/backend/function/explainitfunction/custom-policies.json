@@ -1,0 +1,6 @@
+[
+  {
+    "Action": ["bedrock:InvokeModel"],
+    "Resource": ["*"]
+  }
+]
