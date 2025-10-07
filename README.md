@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Explain It! - **An AI-Powered Explanation App** <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS Logo" height="30" style="vertical-align: middle; margin-left: 10px;" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+A full-stack, serverless web application that simplifies complex topics using generative AI, built entirely on the AWS cloud with Amplify.
 
-In the project directory, you can run:
+# What It Does
+This application serves as a hands-on guide to building modern cloud applications. It allows authenticated users to input any complex topic and receive a simple, easy-to-understand explanation, as if for a five-year-old.
+The primary goal of this project was to explore the end-to-end process of developing with AWS Amplify, making it a perfect foundation for workshops that aim to make cloud and AI technologies more accessible to students and enthusiasts.
 
-### `npm start`
+# ✨ Core Features
+- Secure Authentication: Full sign-up and sign-in flow using Amazon Cognito.
+- Generative AI: Integrates with Amazon Bedrock to provide explanations from Anthropic's Claude 3 Haiku model.
+- Serverless Backend: Built with AWS Lambda and API Gateway for a scalable, cost-effective backend.
+- Modern UI: A clean, responsive interface created with React and Material-UI.
+- Automated Deployments: A full CI/CD pipeline managed by the AWS Amplify Console for automatic deployments on every code change.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 🛠️ Technology Stack
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![AWS Amplify](https://img.shields.io/badge/AWS%20Amplify-FF9900.svg?style=for-the-badge&logo=aws-amplify&logoColor=white)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900.svg?style=for-the-badge&logo=aws-lambda&logoColor=white)
+![Material-UI](https://img.shields.io/badge/Material--UI-007FFF.svg?style=for-the-badge&logo=mui&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
