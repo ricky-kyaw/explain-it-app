@@ -4,7 +4,6 @@ import { post } from 'aws-amplify/api';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 
-// MUI Imports - New!
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
@@ -20,7 +19,6 @@ import Toolbar from '@mui/material/Toolbar';
 import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 
-// MUI Dark Theme - New!
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
@@ -32,7 +30,7 @@ function App({ signOut, user }) {
   const [response, setResponse] = useState('');
   const [history, setHistory] = useState([]);
   const [loading, setLoading] = useState(false);
-  const apiName = 'api00ac01aa'; // Make sure this matches your API name
+  const apiName = 'api00ac01aa';
 
   const handleExplain = async (e) => {
     e.preventDefault();
